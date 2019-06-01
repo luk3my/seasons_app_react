@@ -19,7 +19,6 @@ const getSeason = (lat, month) => {
   } else {
     return lat > 0 ? 'winter' : 'summer';
   }
-
 }
 
 const SeasonDisplay = (props) => {
